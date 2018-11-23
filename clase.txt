@@ -1,0 +1,32 @@
+la licencia de software y el copyright son cosas diferentes (algo que se equivoca comunmente en el parcial)
+
+cualquier dato que yo genere, es mio (C), sin embargo, si yo acepto los terminos de otro contrato, por màs que el copyright
+nos protega, podrian utilizar nuestro contenido sin pagarnos.
+
+Una licencia de codigo abierto, dos licencias, codigo abierto y propietario.
+el problema de estas dos es que tipo de libertades me da.
+
+las de codigo abierto son las que me dan màs libertad, si usas esta licencia, podes perder los derechos aun siendo el autor
+dado a que estas renunciando a ciertos derechos que le da el copyright de ese pais para que el software sea libre.
+
+
+codigo cerrado: se crea una licencia estipulando que el que suba contenido en el programa que cree con un codigo cerrado,
+el usario esta renunciando a sus derechos de cualquier cosa que haya subido (fotos, videos, etc.) y pasa a ser mio.
+
+(Copyright) FsF: empezo a existir el 4 de octubre de 1985.
+
+free software: no quiere decir que sea gratis, si no, que es libre. La idea es que si quiero el codigo fuente, me lo dan
+pero si quiero el programa funcionando o que le hagan mantenciòn, tengo que pagar.
+
+(Ventaja, libertad/fsf) 
+
+1: el codigo fuente no es fisico pero si se puede usar, tiene datos y comportamientos,lo podes utilizar para cualquier cosa.
+
+2: podemos abrirlo, verlo, modificarlo.
+
+3: podemos redistribuirlo.
+
+4: podemos redistribuirlo pero modificado por nosotros.
+
+
+

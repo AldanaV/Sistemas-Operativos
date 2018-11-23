@@ -1,0 +1,44 @@
+subdirectorios:
+
+
+
+dinamicos: van cambiando segun lo que el usuario haga (home, tnp o tvp
+var(se guardan variables de las aplicaciones asi tenemos un registro de lo que va pasando 
+a travez de este subdirectorio))
+
+estaticos: no cambian, pero pueden si el administrador lo desea (opt(virtual box),grup/rup)
+etc= se encuentran todos los archivos de configuracion
+
+
+compartidos y no compartidos(subdirectorios): influencia segùn si se le da
+acceso al usuario a ciertas funciones
+
+
+-------------------------
+
+lo que se guarda en "media" son los puntos de montaje
+/prop o proct = tiene todo lo que pasa en mi sistema 
+
+
+hay tres tipos de archivos: el archivo comun que es todo, archivos directorios que contienen otros archivos 
+adentro o subdirectorios o archivos especial que representan
+
+el nombre de nuestro subdirectorio puede tener hasta 255 caracteres (8 letras aprox)
+
+es sensible
+
+inodos y enlances
+
+---------
+
+crear un archivos que se llama "hola" que sea txt adentro de juegos 
+
+ln Saludar.txt otro.txt
+ln -s otro.txt nuevo.txt
+
+despuès eliminamos otro.txt
+
+
+
+
+

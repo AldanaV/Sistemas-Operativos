@@ -1,0 +1,61 @@
+Archivos.rar:
+
+
+Comprimir: C
+
+Descomprimir/ añadir un archivo/extraer/borrar: 
+
+
+
+Archivo.txt < "  "
+Foto.jpg < "   "
+Base.dat < "   "
+ 
+
+------------------
+sudo tar -cvf backup2.tgz
+-----------------
+
+sudo tar -cvf backup (O copia backup) / (despuès presionas a y tab y se tiene que completar "archivo" y asi 
+sucesivamente con los demàs elementos, es decir, foto.jpg y base.dat)
+
+sudo tar -tf (el -tf muestra lo que hay dentro del archivo .rar)
+
+
+que es permiso? es algo que tenemos que poder entender y manipular para poder tener acceso a los archivos
+
+
+Si un archivo tiene su permiso con todos unos (1), significa que cualquiera lo puede ver, leer, abrir, modificar,etc
+
+
+
+ls -l
+
+x111111111 (Estos, me van a indicar que es lo que cada uno es capaz de hacer con el archivo)
+
+
+x nada
+3 creador
+3 grupo
+3 otros
+
+
+
+Ejecutable o no ejecutable
+
+
+un ejecutable no hace nada (para que lo sea, se tiene que cambiar el permiso)
+
+el no ejecutable lo podes abrir, leer, escribir
+
+
+
+Ejecutable: ejecutor << "echo hola a todos"
+
+ch own = para modificar el permiso
+
+
+para ejecutar el ejecutor = ./Ejecutor
+
+
+

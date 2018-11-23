@@ -1,0 +1,121 @@
+git init
+
+git status
+
+git add .
+
+git commit -m "Primer commit"
+
+git log
+
+git clone
+
+git config --list
+
+----------------------------------------------------
+
+Pasos para crear repositorios desde consola:
+
+----------------------------------------------------
+
+
+1) Abrir el cmd: 
+
+2) creamos un repositorio con : mkdir github
+
+3) entramos dentro de este con: cd github
+
+4) hacemos un dir
+
+5) hacemos un git init
+
+6) hacemos un dir
+
+7) entramos nuevamente a la carpeta de github: cd github
+
+8) Vamos a sublime text (o en su defecto lo podemos hacer en un bloc de notas) y creamos un 
+archivo con extencion html: index.html
+
+9) volvemos al cmd y dentro de la carpeta de github hacemos un status: git status
+
+10) tiene que aparece el index.html en rojo
+
+11) hacemos un add: git add .
+
+12) nuevamente un git status para controlar que este bien
+
+13) tiene que aparecer un texto en verde que diga: "new file: index.html"
+
+
+
+-------------
+
+Clonar y subir:
+
+
+1) git status
+
+2) git log
+
+3) estamos dentro de github, volvemos a alumno: cd .. 
+
+4) dir 
+
+5)  creamos una carpeta llamada "githubWeb"
+
+5.5) creamos dentro de la carpeta de githubWeb otra carpeta llamada EjemploGithub
+
+5.5) vamos al sublime y creamos un archivo .js: Aldana Salvatierra.js
+
+6) entramos a la carpeta "EjemploGithub" desde el cmd
+
+7) una vez dentro, clonamos: git clone y hacemos clic derecho v(acà copìarimos el repositorio 
+de EjemploGithub) 
+
+8)  dentro de githubWeb hacemos un git add .
+
+9) git status   
+
+10) hacemos: git config --add user "Aldana"
+
+11) git config --add user.name "Aldana"
+
+12) git config --global user.name "Aldana"
+
+13) nos muestra el nombre de usuario
+
+14) entramos a githubWeb
+
+15) hacemos un git status
+
+15.5) hacemos git add .
+
+15.5) git status y deberia estar en verde 
+
+16) hacemos un commit: git commit -m "segundo commit"
+
+17) hacemos un push: git push origin master
+
+18) agregamos lo que nos pide: usuario y contraseña
+
+19) hacemos un git clone y clonamos el repositorio que queremos clonar
+
+20) hacemos un git status
+
+
+------------x------- 
+
+9/11
+
+Branch
+
+
+
+->master = es lo que le mostramos al cliente durante el desarrollo
+
+->branch DEV VI = desarroller the interface? / le importa terminar lo que le pidieron
+
+->Dev UI test = test del DEV VI
+
+->test 
+

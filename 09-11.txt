@@ -1,0 +1,52 @@
+Branch
+
+
+
+->master = es lo que le mostramos al cliente durante el desarrollo
+
+->branch DEV VI = desarroller the interface? / le importa terminar lo que le pidieron
+
+->Dev UI test = test del DEV VI
+
+->test = 
+
+-----------------
+
+proceso y funcion, la diferencia es que la funcion recibe parametros
+
+procesos autonomos, su propio proceso se puede crear (zombie)
+
+
+1.Bios = es lo primero que se ejecuta cuando se inicia la cpu y verifica 
+que tenga todos los componentes necesarios, si esta llegara a faltarle 
+algo, la cpu emite una alerta que consta de tres pitidos, para solucionar
+ este problema, debemos verificar si el problema surge de la placa de 
+video, etc, etc.
+ 
+
+2.sistema operativo = necesitan un punto de inicio (como si fuera un main 
+o index), se puede hasta decidir antes de que la pc prenda, un punto de
+arranque que nosotros queramos(en linux: grup)
+
+master dir record (en windows) = define cual va a ser el punto de 
+arranque en el disco rigido.
+
+3. kernel= se le indica cual es el S.O que va a ejecutar y es lo primero 
+que se tiene que cargar; va a cargar tanto los driver como la configura-
+ciòn para la versiòn de ese kernel.
+
+4.Inicialización: Es el primer proceso que se va a alojar en la memoria, 
+cuando se ejecuta el init, se reliaza la planificacion de los procesos.
+
+Procesos demonio: es un proceso que hace algo por si solo, pero que sin 
+embargo, vos no lo creaste ni lo modificaste. (ej: la fecha)
+
+proceso humano: -
+
+Inicialización pt2: Es el proceso que se ejecuta principalmente al inicio y que controla 
+todo, el init es un proceso padre de todos los procesos, cuando tenemos 
+los procesos tiene que ser generados por alguien, que seria el proceso 
+padre, que seria el init, el numero de proceso es el 1, si queremos 
+matar ese proceso, se muere todo (si es que podemos)
+
+										

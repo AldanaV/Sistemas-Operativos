@@ -1,0 +1,150 @@
+Descripcion de memoria: 
+
+Es un medio que nos permite almacenar información q puede ser electronica o de 
+cualquier tipo que se pueda transferir en binario. (o algo fisico, como el cd)
+
+
+Las memorias tiene dos tipos de accesops que nosotros podmeos lograr que es uno 
+secuencial y otro aleatorio.
+
+Secuencial: nos permite hacer algoritmo de punteros en C, se que a partir de una 
+determinada posicion, mas uno (por ejemplo: estoy en la posicion 1 y se que el 
+siguiente es 2)
+
+Aleatorio: me permite poder acceder al 1 y al 100 sin la necesidad de atravesar los 
+numeros que tiene de por medio.
+
+
+Registro del cpu: es la velocidad maxima de la que podemos disponer
+
+Rompe control: es el cerebro de la computadora, acà se define la velocidad maxima de 
+la computadora (se puede leer y escribir un registro(?))
+
+Tipos de memoria:
+
+*Memoria de cache
+*Memoria ram (el ram el volatil)
+*Dispositivo de almacenamiento no volatil: pendrive, disco rigido, cd, tarjeta sd, dvd?
+
+
+Diferencia entre memorias altas y bajas:
+
+Tamaño, velocidad de acceso, cantidad de memoria (las cercanas al microprocesador son pocas),
+la forma de expandir las memorias.
+
+La memoria también tiene que ver por como la organizamos y la estructuramos en nuestro 
+microprocesador, el que este en Risc tiene un aprovechamiento mejor en la memoria porque 
+la divide en pequeñas porciones.
+
+
+sis: computadora
+
+risc: celular (un SO de BlackBerry)
+
+
+Rom de control: es la cantidad de instrucciones que tiene la computadora,
+
+------
+
+
+Memoria virtual:
+
+
+Cuando nos quedamos sin memoria RAM, la computadora designa una pequeña porcion de memoria 
+del disco rigido y la convierne en memoria RAM y esta serìa una memoria virtual, dado 
+que actua como una memoria RAM pero no lo es.
+
+
+Utilizar la memoria virtual es disminuir la capacidad de velocidad de una computadora o celular; por ejemplo, 
+si tenemos una capacidad de memoria de 4GB y abrimos 4 Google Chrome que nos ocupa cada una 1GB y aun asì podemos 
+seguir abriendo otras cosas, es porque se activo la memoria RAM y los 4 Google Chrome pasan a tener una capacidad 
+de velocidad mucho más baja para que los otras nuevas app que acabo de abrir, puedan funcionar aun con baja calidad 
+de velocidad en memoria.
+
+
+--------
+
+
+una vez que la memoria secundaria esta ocupada, entra la memoria super rapida que 
+
+
+problema de almacenar archivos:cúal es el tamaño minimo?
+
+Defragmentación:
+
+Cuando defragmento una memoria/app, es cuando juntamos las partes que no se guardaron juntas porque no vimos 
+cuanta memoria habia disponible y se guardo donde encontrò memoria.
+
+Los SO tiene un histotisl interno donde nos indica cuales fueron las acciones de la computadora desde el 
+ultimo momento en que fue utlizada.
+
+
+------
+
+
+RAID:
+
+Hace referencia a un sistema de almacenamiento de datos que utiliza múltiples unidades, entre las cuales se 
+distribuyen o replican los datos.
+
+Tiene distintos nombres: Mirror (espejo)
+
+Raid 1: usa dos discos como espejos (para que si uno falla, tengan un backup)
+
+Raid 0: (usa dos discos) tiene dos particularidades: tiene parte de informacion en un disco y otra parte en el 
+otro disco, por lo cualaumenta la velocidad de estos.
+
+Raid: 2, 3 y 4 (no se usan)
+
+Raid 5: consiste en multiples unidades de disco para formar backup, convinando las ventajas de Raid 0 y Raid 1. 
+Debe consistir de al menos 3 discos duros. Por ejemplo, si tenemos dos memorias principales A y B (con un total de 
+1T - 500GB y 500GB), lo cuales comparten informaciòn y contienen cada uno la mitad, cada memoria principal tiene 
+un  backup C y D, A --> C y B-->D.
+
+/!\ Nota: el backup no suma, es un espejo, por lo que va a tener la misma cantidad de memoria que el original, 
+por el ejemplo: si el original tiene 500GB y haces un backup (espejo), el backup va a tener un tamaño de 500G.
+
+
+
+
+--------------------------
+
+Comandos para memoria:
+
+para ver la memoria disponible: man free
+
+man cat info
+
+cat/pro -bro? = para que te muestre la memoria Ram disponible
+
+buff/cache
+
+
+
+
+
+
+
+Próxima clase: LBM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

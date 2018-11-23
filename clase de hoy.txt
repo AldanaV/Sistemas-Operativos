@@ -1,0 +1,59 @@
+Paquetes:
+
+
+los paquetes pueden contener varios programas, fotos, actualizaciones, etc. 
+Pueden ser parte de un programa, pueden ser programas,librerias.
+
+
+*//np install = comando para que se actualice una versión
+
+
+Rpm, .deb, apt(maneja paquetes de .deb/debian),aptitude(es lo mismo que apt pero más amplio),
+yum (maneja paquetes para rpm)
+
+.etc/apt son directorios con archivos
+
+
+------------
+
+
+apt-get:
+
+apt-get update
+
+apt-get check : chekea el directorio
+
+apt-get upgrade: instala las actualizaciones recientes 
+
+apt-get install mc -f 
+
+install --reinstall mc
+
+apt-get remove mc : remueve 
+
+apt-get purge remove mc
+
+apt-get clean = limpia
+
+apt-get autoclean
+
+apt-get autoremove
+
+apt-cache search (paquete- se pone el nombre del paquete que queres buscar)
+
+apt-cache policy (mc) = te da la información del paquete
+
+apt-cache showpkg (mc) = trae la versión a la carpeta
+
+
+------------------
+
+
+dpkg -i paquete.deb 
+
+-i more
+-l mc /more
+-r mc
+--configure
+
+dpkg -s ls (me da la informacion)
